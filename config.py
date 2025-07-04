@@ -7,17 +7,17 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.getenv("7901548930:AAGKdLGi7fXFtw58XQO5heGJJEgwwgxBv94")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+API_ID = int(os.getenv("20366634"))
+API_HASH = os.getenv("72095ec36984aa9ceb0dbaa9cec31559")
 
-OWNER_ID = int(os.getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(os.getenv("OWNER_ID", 7845335174))
 
 # Database Configuration
-MONGO_URI = os.getenv("MONGO_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+MONGO_URI = os.getenv("mongodb+srv://rohitreddyathuru:R6Co7MOjTYQOAqcq@cluster0.xrwjpl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.getenv("Cluooo")
 
 # Channel Configuration 
-DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
+DB_CHANNEL_ID = int(os.getenv("-1002640844591"))
 FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL")) # First force sub channel
 FORCE_SUB_CHANNEL_2 = int(os.getenv("FORCE_SUB_CHANNEL_2", 0)) # Second force sub channel, defaults to 0 if not set
 FORCE_SUB_CHANNEL_3 = int(os.getenv("FORCE_SUB_CHANNEL_3", 0))
@@ -30,11 +30,11 @@ CHANNEL_LINK_3 = os.getenv("CHANNEL_LINK_3", "")
 CHANNEL_LINK_4 = os.getenv("CHANNEL_LINK_4", "") 
 
 #start photo 
-START_PHOTO = os.getenv("START_PHOTO", "") #start photo for bot
+START_PHOTO = os.getenv("START_PHOTO", "https://ibb.co/4wQCxRVV") #start photo for bot
 
 # Bot Information
-BOT_USERNAME = os.getenv("BOT_USERNAME")
-BOT_NAME = os.getenv("BOT_NAME")
+BOT_USERNAME = os.getenv("ANIELITEMOVIEBOT")
+BOT_NAME = os.getenv("ANIELITE MOVIE BOT")
 BOT_VERSION = "1.6"
 
 # Privacy Mode Configuration and codexbotz delete time
@@ -47,9 +47,9 @@ if not MODIJI_API_KEY:
     print("⚠️ Warning: MODIJI_API_KEY not set in environment variables")
 
 # Links
-CHANNEL_LINK = os.getenv("CHANNEL_LINK")
-DEVELOPER_LINK = os.getenv("DEVELOPER_LINK")
-SUPPORT_LINK = os.getenv("SUPPORT_LINK")
+CHANNEL_LINK = os.getenv("https://t.me/ANIELITEMOVIES")
+DEVELOPER_LINK = os.getenv("https://t.me/ROHITREDDY69")
+SUPPORT_LINK = os.getenv("https://t.me/anielitemovieschat")
 
 # For Koyeb/render 
 WEB_SERVER = bool(os.getenv("WEB_SERVER", True)) # make it True if deploying on koyeb/render else False
@@ -59,7 +59,7 @@ PING_TIME = int(os.getenv("PING_TIME")) # Add time_out in seconds
 # Admin IDs - Convert space-separated string to list of integers
 ADMIN_IDS: List[int] = [
     int(admin_id.strip())
-    for admin_id in os.getenv("ADMIN_IDS", "").split()
+    for admin_id in os.getenv("ADMIN_IDS", "7845335174").split()
     if admin_id.strip().isdigit()
 ]
 
@@ -125,9 +125,8 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Real-time Tracking
 • Force Subscribe
 
-📢 Join @Thealphabotz for updates!
-👨‍💻 Contact @adarsh2626 for support
-A Open Source Repo :- github.com/utkarshdubey2008/alphashare
+📢 Join @ANIELITEMOVIES for updates!
+👨‍💻 Contact @ROHITREDDY69 for support
 
 Use /help to see available commands!
 """
@@ -159,21 +158,21 @@ Use /help to see available commands!
 
 
 🛠 **Open Source:**  
-🔗 [GitHub](https://github.com/utkarshdubey2008/alphashare)  
+🔗 [NOT AVAILABLE](https://t.me/ROHITREDDY69)  
 
-⚠️ **Need Help?** Contact [@adarsh2626](https://t.me/adarsh2626)  
+⚠️ **Need Help?** Contact [@ROHITREDDY69](https://t.me/ROHITREDDY69)  
 """
 
     ABOUT_TEXT = """
 ℹ️ **About {bot_name}**
 
 **Version:** `{version}`
-**Developer:** @adarsh2626
+**Developer:** @ROHITREDDY69
 **Language:** Python
 **Framework:** Pyrogram
 
-📢 **Updates:** @Thealphabotz
-🛠 **Support:** @adarsh2626
+📢 **Updates:** @ANIELITEMOVIES
+🛠 **Support:** @anielitemovieschat
 
 **Features:**
 • Secure File Sharing
@@ -186,7 +185,7 @@ Use /help to see available commands!
 
 use /repo to know more info
 
-Made with ❤️ by @adarsh2626
+Made with ❤️ by @ROHITREDDY69
 """
 
     FILE_TEXT = """
@@ -207,7 +206,7 @@ Made with ❤️ by @adarsh2626
 ⚠️ **Access Restricted!**
 
 Please join our channel to use this bot:
-Bot By @Thealphabotz
+Bot By @ANIELITEMOVIES
 
 Click button below, then try again!
 """
